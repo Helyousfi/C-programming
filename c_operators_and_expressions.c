@@ -17,5 +17,11 @@ int main()
     double x = y * y;
     printf("%f", x);
 
+    printf("Les Conversion Numériques : \n");
+    // if we add two shorts then they will be converted to int
+
+    {
+        printf("Bloc :");
+    }
     return 0;
 }
