@@ -22,6 +22,23 @@ int main()
 
     {
         printf("Bloc :");
+        int d = 0;
     }
+    // printf("%d", d); Can't do this
+    for(int i=0; i<20; i++)
+    {
+        static int static_var = 0;
+        static_var++;
+        printf("%d \n", static_var);
+    }
+    goto suite;
+    for(int i=0; i<20; i++)
+    {
+        int aa = i*2;
+        printf("%d", aa);
+        suite:
+            printf("ok \n");
+    }
+    
     return 0;
 }
